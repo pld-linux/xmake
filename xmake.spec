@@ -5,8 +5,9 @@ Version:	1.05
 Release:	8
 License:	Public Domain
 Group:		Development/Tools
-Source0:	http://www.backplane.com/xmake/%{name}-%{version}.tgz
-URL:		http://www.backplane.com/xmake/
+Source0:	http://apollo.backplane.com/xmake/%{name}-%{version}.tgz
+# Source0-md5:	1563ca7d04d2df79bfa9a5c7db532aa7
+URL:		http://apollo.backplane.com/xmake/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
