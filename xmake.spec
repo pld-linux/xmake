@@ -1,5 +1,5 @@
 Summary:	A make designed for constructing multiple complex dependencies
-Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci
+Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿no¶ci
 Name:		xmake
 Version:	1.06
 Release:	1
