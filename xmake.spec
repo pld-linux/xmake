@@ -3,7 +3,7 @@ Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci
 Name:		xmake
 Version:	1.05
 Release:	8
-License:	Public domain
+License:	Public Domain
 Group:		Development/Tools
 Source0:	http://www.backplane.com/xmake/%{name}-%{version}.tgz
 URL:		http://www.backplane.com/xmake/
