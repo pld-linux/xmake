@@ -1,12 +1,12 @@
 Summary:	A make designed for constructing multiple complex dependencies
 Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci
 Name:		xmake
-Version:	1.05
-Release:	8
+Version:	1.06
+Release:	1
 License:	Public Domain
 Group:		Development/Tools
 Source0:	http://apollo.backplane.com/xmake/%{name}-%{version}.tgz
-# Source0-md5:	1563ca7d04d2df79bfa9a5c7db532aa7
+# Source0-md5:	257a2d11061363fd3b26fe3a073f890e
 URL:		http://apollo.backplane.com/xmake/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
