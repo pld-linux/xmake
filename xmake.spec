@@ -35,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_bindir} \
 	$RPM_BUILD_ROOT%{_mandir}/man1
-install -s obj/xmake $RPM_BUILD_ROOT%{_bindir}
+install obj/xmake $RPM_BUILD_ROOT%{_bindir}
 install xmake.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
