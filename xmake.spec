@@ -1,5 +1,5 @@
-Summary:	A make designed for constructing multiple complex dependencies.
-Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci.
+Summary:	A make designed for constructing multiple complex dependencies
+Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci
 Name:		xmake
 Version:	1.05
 Release:	8
@@ -32,17 +32,18 @@ zale¿no¶ci bez przejmowania siê domy¶lnymi ustawianiami.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 
-install -d $RPM_BUILD_ROOT%{_bindir} \
-	$RPM_BUILD_ROOT%{_mandir}/man1
 install obj/xmake $RPM_BUILD_ROOT%{_bindir}
 install xmake.1 $RPM_BUILD_ROOT%{_mandir}/man1
+
+gzip -9nf README RELEASE_NOTES
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README RELEASE_NOTES
+%doc README.gz RELEASE_NOTES.gz
 %attr(755,root,root) %{_bindir}/xmake
 %{_mandir}/*/*
