@@ -5,9 +5,6 @@ Version:	1.05
 Release:	8
 License:	Public domain
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	http://www.backplane.com/xmake/%{name}-%{version}.tgz
 URL:		http://www.backplane.com/xmake/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
