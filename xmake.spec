@@ -1,9 +1,9 @@
+Summary:	A make designed for constructing multiple complex dependencies.
+Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci.
 Name:		xmake
 Version:	1.05
 Release:	8
-Summary:	A make designed for constructing multiple complex dependencies.
-Summary(pl):	make przeznaczony do konstruowania wielu z³o¿onych zale¿nosci.
-Copyright:	Public domain
+License:	Public domain
 Group:		Development/Tools
 Group(de):	Entwicklung/Werkzeuge
 Group(fr):	Development/Outils
