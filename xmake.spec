@@ -18,7 +18,7 @@ specifically designed to allow the develop to easily construct
 multiple complex dependencies, without worrying about default
 rulesets.
 
-%description
+%description -l pl
 XMAKE jest podobny do innych make w wielu dziedzinach. Mimo to jest
 specjalnie przeznaczony do umo¿liwienia konstruowania z³o¿onych
 zale¿no¶ci bez przejmowania siê domy¶lnymi ustawianiami.
