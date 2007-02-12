@@ -1,5 +1,5 @@
 Summary:	A make designed for constructing multiple complex dependencies
-Summary(pl):	make przeznaczony do konstruowania wielu z≥oøonych zaleøno∂ci
+Summary(pl.UTF-8):   make przeznaczony do konstruowania wielu z≈Ço≈ºonych zale≈ºno≈õci
 Name:		xmake
 Version:	1.06
 Release:	1
@@ -16,10 +16,10 @@ specifically designed to allow the develop to easily construct
 multiple complex dependencies, without worrying about default
 rulesets.
 
-%description -l pl
+%description -l pl.UTF-8
 XMAKE jest podobny do innych make w wielu dziedzinach. Mimo to jest
-specjalnie przeznaczony do umoøliwienia konstruowania z≥oøonych
-zaleøno∂ci bez przejmowania siÍ domy∂lnymi ustawianiami.
+specjalnie przeznaczony do umo≈ºliwienia konstruowania z≈Ço≈ºonych
+zale≈ºno≈õci bez przejmowania siƒô domy≈õlnymi ustawianiami.
 
 %prep
 %setup -q -n %{name}
